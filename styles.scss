@@ -1,0 +1,42 @@
+$primary: #2D7DD2;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+section{
+    padding: 60px 0;
+}
+
+#firstSection{
+    color: aliceblue;
+}
+
+.linkedin-link img{
+    width: 10px;
+}
+
+.banner{
+background: url(./assets/images/fondo.png);
+background-size: cover;
+background-position: top left;
+}
+
+.btn-primery{
+    font-weight: bolder;
+}
+
+.author-img{
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.author-img:before{
+    position: absolute;
+    content: "";
+    left: -20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid $primary;
+    z-index: -1;
+   
+}
