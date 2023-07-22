@@ -3,6 +3,8 @@ $primary: #2D7DD2;
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+
 body{
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
@@ -24,6 +26,15 @@ section {
 
 .portada-img{
   border-radius: 10px;
+}
+
+#navbarNav{
+	
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Ajusta esto según el tamaño que desees para el encabezado */
+    
 }
 
 .proyectos{
