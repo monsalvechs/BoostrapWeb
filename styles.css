@@ -121,6 +121,32 @@ h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
+#navbarNav{
+	
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Ajusta esto según el tamaño que desees para el encabezado */
+    
+}
+#btnVolverArriba {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+#btnVolverArriba:hover {
+  background-color: #0056b3;
+}
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
