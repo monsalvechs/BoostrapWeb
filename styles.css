@@ -126,7 +126,7 @@ h1, .h1 {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh; /* Ajusta esto según el tamaño que desees para el encabezado */
+      height: 15vh; /* Ajusta esto según el tamaño que desees para el encabezado */
     
 }
 #btnVolverArriba {
@@ -140,7 +140,7 @@ h1, .h1 {
   color: #fff;
   cursor: pointer;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 100%;
   z-index: 999;
 }
 
