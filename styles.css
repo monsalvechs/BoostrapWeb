@@ -125,9 +125,7 @@ h1, .h1 {
 	
       display: flex;
       justify-content: center;
-      align-items: center;
-      height: 15vh; /* Ajusta esto según el tamaño que desees para el encabezado */
-    
+      align-items: center;    
 }
 #btnVolverArriba {
   display: none;
